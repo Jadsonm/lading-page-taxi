@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #FFF;
+    overflow-y: scroll; /* Permite rolagem vertical */
+    scroll-behavior: smooth; /* Rolagem suave */
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #FFD700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #FFD700;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between; /* Coloca o texto à esquerda e o ícone à direita */
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding: 20px; /* Opcional: adiciona espaçamento interno */
+}
+
+.content p {
+    font-size: 30px; /* Ajuste conforme desejado */
+    text-align: left; /* Alinha o texto à esquerda */
+    max-width: 60%; /* Opcional: controla a largura do parágrafo */
+    margin: 0; /* Remove a margem superior e inferior */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.app-store, .play-store {
+    display: flex;
+    align-items: center;
+}
+
+.app-store img, .play-store img {
+    height: 55px;
+}
+
+.taxi-icon img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.phone-icon img {
+    width: 350px;
+}
+
+.faqs img {
+    width: 200px;
+}
+
+.navigator img {
+    width: 100px;
+}
+
+.screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen1 {
+    background-color: #000;
+}
+
+.screen2 {
+    background-color: #000;
+    color: #FFF;
+}
+
+.screen2 .content p {
+    font-size: 50px; /* Ajuste o valor conforme desejado */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos em uma coluna */
+    align-items: center; /* Alinha horizontalmente ao centro, se desejado */
+    padding: 20px; /* Opcional: adiciona espaçamento interno */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Para empilhar elementos na coluna */
+    align-items: center; /* Centraliza horizontalmente os itens */
+    margin: 0 auto; /* Centraliza a div em relação à div pai */
+    padding: 20px; /* Opcional: adiciona espaçamento interno */
+    text-align: center; /* Centraliza o texto dentro da div */
+}
+
+
+.text-container p {
+    font-size: 30px; /* Ajuste conforme desejado */
+    text-align: center; /* Alinha o texto ao centro */
+    max-width: 60%; /* Opcional: controla a largura do parágrafo */
+    margin: 0; /* Remove a margem superior e inferior */
+}
+
+.features-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Ajuste conforme necessário */
+    max-width: 90%; /* Define a largura máxima para manter dentro da tela */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    text-align: center;
+    height: 100vh;
+    flex-wrap: wrap; /* Permite quebra de linha se houver muitos itens */
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Largura fixa para cada item */
+    margin: 10px; /* Margem para separar os itens em telas pequenas */
+}
+
+.feature img {
+    width: 200px; /* Ajuste conforme desejado */
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #FFF;
+    text-align: center;
+    margin: 0;
+}
+
+#unique-screen {
+    background-color: #000; /* Um fundo diferente para esta tela */
+    color: #FFF; /* Cor do texto específica para esta tela */
+}
+
+#unique-screen .content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    height: 100vh; 
+    margin-top: 50px;
+}
+
+#unique-screen .text-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+    white-space: nowrap;
+}
+
+#unique-screen .text-container p {
+    font-size: 20px; 
+    text-align: left; 
+    margin: 5px 0; 
+}
+
+.text-container-teste {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: flex-start; /* Alinha o texto à esquerda dentro da coluna */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+.text-container-teste.right {
+    align-items: flex-end; /* Alinha o texto à direita na coluna da direita */
+}
+
+.text-container-teste p {
+    font-size: 20px; /* Ajuste conforme desejado */
+    margin: 0;
+    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+}
+
+.app-store-container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o logo e o texto */
+    gap: 10px; /* Espaço entre o logo e o texto "App Store" */
+    margin-top: 10px; /* Ajuste conforme desejado */
+}
+
+.app-store-logo {
+    width: 25px; /* Defina o tamanho do logo conforme necessário */
+    height: auto;
+}
+
+.redes-sociais-container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o logo e o texto */
+    gap: 10px; /* Espaço entre o logo e o texto "App Store" */
+    margin-top: 10px; /* Ajuste conforme desejado */
+    margin-left: 400px;
+}
+
+.redes-sociais-logo {
+    width: 200px; /* Defina o tamanho do logo conforme necessário */
+    height: auto;
+}
+
+.text-container-teste a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: inherit; /* Usa a mesma cor do texto pai */
+}
+
+.text-container-teste a:hover {
+    color: #FFD700; /* Altera a cor ao passar o mouse, se desejado */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
