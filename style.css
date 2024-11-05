@@ -8,8 +8,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #000;
     color: #FFF;
-    overflow-y: scroll; /* Permite rolagem vertical */
-    scroll-behavior: smooth; /* Rolagem suave */
+    overflow-y: scroll; 
+    scroll-behavior: smooth; 
 }
 
 .container {
@@ -37,16 +37,16 @@ header h1 {
 
 .content {
     display: flex;
-    justify-content: space-between; /* Coloca o texto à esquerda e o ícone à direita */
-    align-items: center; /* Alinha verticalmente ao centro */
-    padding: 20px; /* Opcional: adiciona espaçamento interno */
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
 }
 
 .content p {
-    font-size: 30px; /* Ajuste conforme desejado */
-    text-align: left; /* Alinha o texto à esquerda */
-    max-width: 60%; /* Opcional: controla a largura do parágrafo */
-    margin: 0; /* Remove a margem superior e inferior */
+    font-size: 30px; 
+    text-align: left; 
+    max-width: 60%;
+    margin: 0; 
 }
 
 .buttons {
@@ -113,55 +113,54 @@ header h1 {
 }
 
 .screen2 .content p {
-    font-size: 50px; /* Ajuste o valor conforme desejado */
+    font-size: 50px; 
 }
 
 .text-container {
     display: flex;
-    flex-direction: column; /* Coloca os elementos em uma coluna */
-    align-items: center; /* Alinha horizontalmente ao centro, se desejado */
-    padding: 20px; /* Opcional: adiciona espaçamento interno */
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px; 
 }
 
 .text-container {
     display: flex;
-    flex-direction: column; /* Para empilhar elementos na coluna */
-    align-items: center; /* Centraliza horizontalmente os itens */
-    margin: 0 auto; /* Centraliza a div em relação à div pai */
-    padding: 20px; /* Opcional: adiciona espaçamento interno */
-    text-align: center; /* Centraliza o texto dentro da div */
+    flex-direction: column;
+    align-items: center; 
+    margin: 0 auto; 
+    padding: 20px;
+    text-align: center; 
 }
-
 
 .text-container p {
-    font-size: 30px; /* Ajuste conforme desejado */
-    text-align: center; /* Alinha o texto ao centro */
-    max-width: 60%; /* Opcional: controla a largura do parágrafo */
-    margin: 0; /* Remove a margem superior e inferior */
+    font-size: 30px;
+    text-align: center;
+    max-width: 60%; 
+    margin: 0; 
 }
 
 .features-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px; /* Ajuste conforme necessário */
-    max-width: 90%; /* Define a largura máxima para manter dentro da tela */
-    margin: 0 auto; /* Centraliza horizontalmente */
+    gap: 50px; 
+    max-width: 90%; 
+    margin: 0 auto; 
     text-align: center;
     height: 100vh;
-    flex-wrap: wrap; /* Permite quebra de linha se houver muitos itens */
+    flex-wrap: wrap; 
 }
 
 .feature {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px; /* Largura fixa para cada item */
-    margin: 10px; /* Margem para separar os itens em telas pequenas */
+    width: 200px; 
+    margin: 10px; 
 }
 
 .feature img {
-    width: 200px; /* Ajuste conforme desejado */
+    width: 200px; 
     margin-bottom: 10px;
 }
 
@@ -174,8 +173,8 @@ header h1 {
 }
 
 #unique-screen {
-    background-color: #000; /* Um fundo diferente para esta tela */
-    color: #FFF; /* Cor do texto específica para esta tela */
+    background-color: #000; 
+    color: #FFF; 
 }
 
 #unique-screen .content {
@@ -201,52 +200,52 @@ header h1 {
 
 .text-container-teste {
     display: flex;
-    flex-direction: column; /* Alinha os itens em coluna */
-    align-items: flex-start; /* Alinha o texto à esquerda dentro da coluna */
-    gap: 20px; /* Espaçamento entre os itens */
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 20px; 
 }
 
 .text-container-teste.right {
-    align-items: flex-end; /* Alinha o texto à direita na coluna da direita */
+    align-items: flex-end; 
 }
 
 .text-container-teste p {
-    font-size: 20px; /* Ajuste conforme desejado */
+    font-size: 20px; 
     margin: 0;
-    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+    white-space: nowrap; 
 }
 
 .app-store-container {
     display: flex;
-    align-items: center; /* Centraliza verticalmente o logo e o texto */
-    gap: 10px; /* Espaço entre o logo e o texto "App Store" */
-    margin-top: 10px; /* Ajuste conforme desejado */
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 10px; 
 }
 
 .app-store-logo {
-    width: 25px; /* Defina o tamanho do logo conforme necessário */
+    width: 25px;
     height: auto;
 }
 
 .redes-sociais-container {
     display: flex;
-    align-items: center; /* Centraliza verticalmente o logo e o texto */
-    gap: 10px; /* Espaço entre o logo e o texto "App Store" */
-    margin-top: 10px; /* Ajuste conforme desejado */
+    align-items: center;
+    gap: 10px; 
+    margin-top: 10px;
     margin-left: 400px;
 }
 
 .redes-sociais-logo {
-    width: 200px; /* Defina o tamanho do logo conforme necessário */
+    width: 200px; 
     height: auto;
 }
 
 .text-container-teste a {
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: inherit; /* Usa a mesma cor do texto pai */
+    text-decoration: none; 
+    color: inherit; 
 }
 
 .text-container-teste a:hover {
-    color: #FFD700; /* Altera a cor ao passar o mouse, se desejado */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    color: #FFD700; 
+    cursor: pointer; 
 }
